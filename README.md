@@ -7,12 +7,12 @@
 
 An open source interface for phidex -- a protocol for decentralized exchange of Ethereum tokens.
 
-- Website: [phidex.org](https://phidex.io/)
-- Interface: [app.phidex.org](https://app.phidex.io)
-- Docs: [phidex.org/docs/](https://phidex.io/docs/)
-- Twitter: [@phidexProtocol](https://twitter.com/phidex2)
+- Website: [phidex.io](https://phidex.io/)
+- Interface: [app.phidex.io](https://app.phidex.io)
+- Docs: [phidex.io/docs/](https://phidex.io/docs/)
+- Twitter: [@phidex2](https://twitter.com/phidex2)
 - Reddit: [/r/phidex](https://www.reddit.com/r/phidex/)
-- Email: [contact@phidex.org](mailto:contact@phidex.org)
+- Email: [contact@phidex.io](mailto:contact@phidex.io)
 - Discord: [phidex](https://discord.gg/yYBbvBYH)
 - Whitepaper: [Link](https://phidex.io/whitepaper/)
 

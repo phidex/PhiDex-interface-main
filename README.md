@@ -1,31 +1,31 @@
-# Uniswap Interface
+# phidex Interface
 
-[![Unit Tests](https://github.com/Uniswap/uniswap-interface/actions/workflows/unit-tests.yaml/badge.svg)](https://github.com/Uniswap/uniswap-interface/actions/workflows/unit-tests.yaml)
-[![Integration Tests](https://github.com/Uniswap/uniswap-interface/actions/workflows/integration-tests.yaml/badge.svg)](https://github.com/Uniswap/uniswap-interface/actions/workflows/integration-tests.yaml)
-[![Lint](https://github.com/Uniswap/uniswap-interface/actions/workflows/lint.yml/badge.svg)](https://github.com/Uniswap/uniswap-interface/actions/workflows/lint.yml)
-[![Release](https://github.com/Uniswap/uniswap-interface/actions/workflows/release.yaml/badge.svg)](https://github.com/Uniswap/uniswap-interface/actions/workflows/release.yaml)
+[![Unit Tests](https://github.com/phidex/phidex-interface/actions/workflows/unit-tests.yaml/badge.svg)](https://github.com/phidex/phidex-interface/actions/workflows/unit-tests.yaml)
+[![Integration Tests](https://github.com/phidex/phidex-interface/actions/workflows/integration-tests.yaml/badge.svg)](https://github.com/phidex/phidex-interface/actions/workflows/integration-tests.yaml)
+[![Lint](https://github.com/phidex/phidex-interface/actions/workflows/lint.yml/badge.svg)](https://github.com/phidex/phidex-interface/actions/workflows/lint.yml)
+[![Release](https://github.com/phidex/phidex-interface/actions/workflows/release.yaml/badge.svg)](https://github.com/phidex/phidex-interface/actions/workflows/release.yaml)
 
-An open source interface for Uniswap -- a protocol for decentralized exchange of Ethereum tokens.
+An open source interface for phidex -- a protocol for decentralized exchange of Ethereum tokens.
 
-- Website: [uniswap.org](https://uniswap.org/)
-- Interface: [app.uniswap.org](https://app.uniswap.org)
-- Docs: [uniswap.org/docs/](https://uniswap.org/docs/)
-- Twitter: [@UniswapProtocol](https://twitter.com/UniswapProtocol)
-- Reddit: [/r/Uniswap](https://www.reddit.com/r/Uniswap/)
-- Email: [contact@uniswap.org](mailto:contact@uniswap.org)
-- Discord: [Uniswap](https://discord.gg/FCfyBSbCU5)
-- Whitepaper: [Link](https://hackmd.io/C-DvwDSfSxuh-Gd4WKE_ig)
+- Website: [phidex.org](https://phidex.io/)
+- Interface: [app.phidex.org](https://app.phidex.io)
+- Docs: [phidex.org/docs/](https://phidex.io/docs/)
+- Twitter: [@phidexProtocol](https://twitter.com/phidex2)
+- Reddit: [/r/phidex](https://www.reddit.com/r/phidex/)
+- Email: [contact@phidex.org](mailto:contact@phidex.org)
+- Discord: [phidex](https://discord.gg/yYBbvBYH)
+- Whitepaper: [Link](https://phidex.io/whitepaper/)
 
-## Accessing the Uniswap Interface
+## Accessing the phidex Interface
 
-To access the Uniswap Interface, use an IPFS gateway link from the
-[latest release](https://github.com/Uniswap/uniswap-interface/releases/latest), 
-or visit [app.uniswap.org](https://app.uniswap.org).
+To access the phidex Interface, use an IPFS gateway link from the
+[latest release](https://github.com/phidex/phidex-interface/releases/latest), 
+or visit [app.phidex.io](https://app.phidex.io).
 
 ## Listing a token
 
 Please see the
-[@uniswap/default-token-list](https://github.com/uniswap/default-token-list) 
+[@phidex/default-token-list](https://github.com/phidex/default-token-list) 
 repository.
 
 ## Development
@@ -51,7 +51,7 @@ To have the interface default to a different network when a wallet is not connec
 3. Change `REACT_APP_NETWORK_URL` to e.g. `"https://{YOUR_NETWORK_ID}.infura.io/v3/{YOUR_INFURA_KEY}"` 
 
 Note that the interface only works on testnets where both 
-[Uniswap V2](https://uniswap.org/docs/v2/smart-contracts/factory/) and 
+[phidex V2](https://phidex.io/docs/v2/smart-contracts/factory/) and 
 [multicall](https://github.com/makerdao/multicall) are deployed.
 The interface will not work on other networks.
 
@@ -60,8 +60,8 @@ The interface will not work on other networks.
 **Please open all pull requests against the `main` branch.** 
 CI checks will run against all PRs.
 
-## Accessing Uniswap Interface V1
+## Accessing phidex Interface V1
 
-The Uniswap Interface supports swapping against, and migrating or removing liquidity from Uniswap V1. However,
-if you would like to use Uniswap V1, the Uniswap V1 interface for mainnet and testnets is accessible via IPFS gateways 
-linked from the [v1.0.0 release](https://github.com/Uniswap/uniswap-interface/releases/tag/v1.0.0).
+The phidex Interface supports swapping against, and migrating or removing liquidity from phidex V1. However,
+if you would like to use phidex V1, the phidex V1 interface for mainnet and testnets is accessible via IPFS gateways 
+linked from the [v1.0.0 release](https://github.com/phidex/phidex-interface/releases/tag/v1.0.0).
